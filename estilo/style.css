@@ -1,24 +1,42 @@
 @charset "UTF-8";
 
+html, body {
+    min-height: 100vh;
+}
+
 header{
+    
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-color: rgba(113, 5, 255, 0.204);
     color: white;
     text-align: center;
-    text-decoration: none;
-    text-decoration-color: white;
-    height: 150px;
-    max-width: 720px;
+    height: 220px;
+    max-width: 800px;
     margin: auto;
 }
+
+header > h1 {
+    padding-top: 50px;
+    margin-bottom: 0px;
+    
+    font-variant: small-caps;
+}
+
+header > p {
+    margin-top: 0px;
+    padding-bottom: 50px;
+    
+
+} 
+
 main {
     background-color: rgba(113, 5, 255, 0.204);
     border-radius: 0px ;
     border-top: 0px;
     color: white;
     height: 3050px;
-    max-width: 720px;
+    max-width: 800px;
     margin: auto;
     text-align: left;
 }
@@ -30,12 +48,30 @@ background-color: gray;
 background-repeat: no-repeat;
 }
 
+section > p {
+    padding-left: 5px;
+}
+
 footer{
-    margin: auto;
     color: lightcyan;
     background-color: rgba(255, 1, 1, 0.329);
     text-align: center;
+    padding: 5px;
 
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1.paragrafo {
+    margin-top: 0px;
 }
 
 p.paragrafo{
@@ -45,10 +81,8 @@ p.paragrafo{
 p.footer {
     font-size: medium;
     margin-top: 0px;
-    text-decoration: black none ;
+    margin-bottom: 0%;
 
 }
-h1.paragrafo {
-    margin-top: 0px;
-}
+
 
