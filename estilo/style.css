@@ -1,14 +1,24 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+    
+:root {
+        --font3: font-family: 'Handlee', cursive;
+        --font2:font-family: 'Oxygen', sans-serif;
+        --font1: font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 
 html, body {
     min-height: 100vh;
+    
+    font-family: var(--font1);
 }
 
 header{
-    
+    font-family: var(--font1);    
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    background-color: rgba(113, 5, 255, 0.204);
+    background-color: rgba(113, 5, 255, 0.400);
     color: white;
     text-align: center;
     height: 220px;
@@ -17,13 +27,14 @@ header{
 }
 
 header > h1 {
+    font-family: var(--font2);
     padding-top: 50px;
     margin-bottom: 0px;
-    
-    font-variant: small-caps;
+    font-size: 4vw;
 }
 
 header > p {
+    font-size: 1.25vw;
     margin-top: 0px;
     padding-bottom: 50px;
     
@@ -31,7 +42,7 @@ header > p {
 } 
 
 main {
-    background-color: rgba(113, 5, 255, 0.204);
+    background-color: rgba(113, 5, 255, 0.400);
     border-radius: 0px ;
     border-top: 0px;
     color: white;
@@ -49,12 +60,15 @@ background-repeat: no-repeat;
 }
 
 section > p {
+    font-size: 1.25vw;
+    font-family: var(--font3);
     padding-left: 5px;
 }
 
 footer{
+    font-family: var(--font1);
     color: lightcyan;
-    background-color: rgba(255, 1, 1, 0.329);
+    background-color: rgba(255, 1, 1, 0.400);
     text-align: center;
     padding: 5px;
 
